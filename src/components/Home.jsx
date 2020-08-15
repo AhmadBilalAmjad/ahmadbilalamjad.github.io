@@ -8,25 +8,31 @@ import {
   UploadOutlined,
 } from '@ant-design/icons';
 
-const { Header, Sider, Content } = Layout;
 
 const Home = () => {
-    const [isCollapsed, setIsCollapsed] = useState(true)
+  const [isCollapsed, setIsCollapsed] = useState(true)
+  const { Header, Sider, Content } = Layout;
+  const { Item } = Menu;
 
     return (
         <Layout>
         <Sider trigger={null} collapsible collapsed={isCollapsed}>
-          <div className="logo" />
-          <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-            <Menu.Item key="1" icon={<UserOutlined />}>
-              nav 1
-            </Menu.Item>
-            <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-              nav 2
-            </Menu.Item>
-            <Menu.Item key="3" icon={<UploadOutlined />}>
-              nav 3
-            </Menu.Item>
+          <div className="logo">
+            ABA  
+          </div>
+          <Menu mode="inline" defaultSelectedKeys={['home']}>
+            <Item key="home" icon={<UserOutlined />}>
+              Home
+            </Item>
+            <Item key="projects" icon={<VideoCameraOutlined />}>
+              Projects
+            </Item>
+            <Item key="github" icon={<UploadOutlined />}>
+              Github
+            </Item>
+            <Item key="linkedin" icon={<UploadOutlined />}>
+              Linkedin
+            </Item>
           </Menu>
         </Sider>
         <Layout className="site-layout">
