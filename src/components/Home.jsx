@@ -1,25 +1,16 @@
 import React from 'react';
-import { Layout, Menu, Typography, Card } from 'antd';
-import { useHistory } from 'react-router-dom';
+import { Layout, Typography, Card } from 'antd';
 
 import '../styles/home.css'
+import Header from './partials/Header';
 
 const Home = () => {
-  const { Header, Content, Footer } = Layout;
-  const { Item } = Menu;
+  const { Content, Footer } = Layout;
   const { Title } = Typography;
-  const history = useHistory();
 
   return (
     <Layout>
-    <Header className='header'>
-      <Menu mode="horizontal" defaultSelectedKeys={['home']} style={{ display: 'flex', justifyContent: 'center' }}>
-        <Item key="home" onClick={() => history.push('/')}>
-            Home
-          </Item>
-        <Item key="projects" onClick={() => history.push('/projects')}>Projects</Item>
-      </Menu>
-    </Header>
+    <Header />
     <Content className="site-layout">
       <div className="site-layout-background">
         <Title>I'm Ahmad Bilal Amjad</Title>
