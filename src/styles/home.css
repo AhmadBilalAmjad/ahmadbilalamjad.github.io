@@ -1,14 +1,54 @@
-.toggle-wrapper {
-    max-width: max-content;
-    padding-top: 10px;
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: white !important;
+    background: transparent !important;
 }
 
-.toggle {
-    font-size: 20px;
-    padding-left: 10px;
-    color: rgb(140, 67, 255) !important;
+.header > ul {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    background: transparent !important;
+}
+
+.site-layout {
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh !important;
 }
 
 .site-layout-background {
-    padding: 24px;
+    background: linear-gradient(rgba(29, 38, 113, 0.5), rgba(195, 55, 100, 0.5));
+    min-height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.site-layout-background > h1, h2 {
+    color: white !important;
+    text-align: center;
+}
+
+.ant-menu-item {
+    color: white;
+}
+
+.ant-menu-item-selected, .ant-menu-item-active{
+    color: #8c43ff !important;
+    border-bottom: 3px solid #8c43ff !important;
+}
+
+h2.ant-typography {
+    margin-top: 0 !important;
+}
+
+.footer {
+    text-align: center;
+    background: white !important;
 }

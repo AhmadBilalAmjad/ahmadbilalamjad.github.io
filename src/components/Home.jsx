@@ -1,37 +1,29 @@
-import React, { useState } from 'react';
-import { Layout } from 'antd';
-import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined
-} from '@ant-design/icons';
-
-import SideNav from './partials/SideNav';
+import React from 'react';
+import { Layout, Menu, Typography } from 'antd';
 
 import '../styles/home.css'
 
 const Home = () => {
-  const [isCollapsed, setIsCollapsed] = useState(true)
-
-  const { Content } = Layout;
-
-  const handleToggleIcon = () => setIsCollapsed(!isCollapsed) 
-
-  const getToggleIcon = () => (
-    isCollapsed ? <MenuUnfoldOutlined className='toggle' onClick={handleToggleIcon} /> : <MenuFoldOutlined className='toggle' onClick={handleToggleIcon} />
-  )
+  const { Header, Content, Footer } = Layout;
+  const { Item } = Menu;
+  const { Title } = Typography;
 
   return (
-      <Layout>
-      <SideNav isCollapsed={isCollapsed} />
-      <Layout className="site-layout">
-        <div className='toggle-wrapper'>
-          {getToggleIcon()}
-        </div>
-        <Content className="site-layout-background">
-          Content
-        </Content>
-      </Layout>
-    </Layout>
+    <Layout>
+    <Header className='header'>
+      <Menu mode="horizontal" defaultSelectedKeys={['home']} style={{ display: 'flex', justifyContent: 'center' }}>
+        <Item key="home">Home</Item>
+        <Item key="projects">Projects</Item>
+      </Menu>
+    </Header>
+    <Content className="site-layout">
+      <div className="site-layout-background">
+        <Title>I'm Ahmad Bilal Amjad</Title>
+        <Title level={2}>I'm a Software Engineer/Full Stack Developer</Title>
+      </div>
+    </Content>
+    <Footer className='footer'>Copyright ©{new Date().getFullYear()} Created by Ahmad Bilal Amjad</Footer>
+  </Layout>
   );
 }
 
