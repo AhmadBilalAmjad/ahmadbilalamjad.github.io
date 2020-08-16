@@ -7,7 +7,7 @@ import {
 
 import SideNav from './partials/SideNav';
 
-import '../styles/admin.css'
+import '../styles/home.css'
 
 const Home = () => {
   const [isCollapsed, setIsCollapsed] = useState(true)
