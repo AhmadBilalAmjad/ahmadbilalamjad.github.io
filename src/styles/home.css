@@ -39,9 +39,17 @@
     color: white;
 }
 
-.ant-menu-item-selected, .ant-menu-item-active{
+.ant-menu-item > a {
+    color: white !important;
+}
+
+.ant-menu-item-selected, .ant-menu-item-active {
     color: #8c43ff !important;
     border-bottom: 3px solid #8c43ff !important;
+}
+
+.ant-menu-item-selected, .ant-menu-item-active {
+    color: #8c43ff !important;
 }
 
 h2.ant-typography {
@@ -49,6 +57,49 @@ h2.ant-typography {
 }
 
 .footer {
+    border-top: 1px solid #f0f0f0;
     text-align: center;
     background: white !important;
+}
+
+.skills-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: white !important;
+}
+
+.ant-card-head {
+    background: #8c43ff !important;
+}
+
+.ant-card-head-title {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-body {
+    padding-left: 1rem;
+}
+
+.bold-purple {
+    color: #8c43ff !important;
+    font-weight: bolder;
+}
+
+/* @media screen and (max-width: 600px) { */
+    .ant-card, .ant-card-bordered, .ant-card-small {
+        margin: 0.5rem 0 !important;
+    }
+/* } */
+
+.skills {
+    color: #8c43ff !important;
+    text-align: center;
+    background: white !important;
+    margin-bottom: 0 !important;
+    padding-top: 2rem;
 }
