@@ -1,0 +1,14 @@
+.toggle-wrapper {
+    max-width: max-content;
+    padding-top: 10px;
+}
+
+.toggle {
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(140, 67, 255) !important;
+}
+
+.site-layout-background {
+    padding: 24px;
+}
