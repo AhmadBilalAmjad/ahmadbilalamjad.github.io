@@ -33,6 +33,7 @@ const Projects = () => {
             isUp: true
         }
     ]
+
     return (
         <Layout>
             <Header />
