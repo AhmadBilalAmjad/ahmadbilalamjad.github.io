@@ -1,8 +1,10 @@
 import React from 'react';
 import { Layout, Typography, Card } from 'antd';
+import { HeartFilled } from '@ant-design/icons'
 
-import '../styles/home.css'
 import Header from './partials/Header';
+
+import '../styles/home.css';
 
 const Home = () => {
   const { Content, Footer } = Layout;
@@ -24,14 +26,15 @@ const Home = () => {
           <li>HTML 5</li>
           <li>CSS 3</li>
           <li className='bold-purple'>REACT JS</li>
-          <li>JQUERY</li>
+          <li className='bold-purple'>REDUX</li>
+          <li className='bold-purple'>REDUX-THUNK & REDUX-SAGA</li>
         </ul>
       </Card>
       <Card size="small" title="STYLING" style={{ width: 200 }}>
         <ul className='card-body'>
           <li>SASS</li>
           <li className='bold-purple'>MATERIAL UI</li>
-          <li className='bold-purple'>ANTD</li>
+          <li className='bold-purple'>ANT DESIGN</li>
           <li>BOOTSTRAP 4*</li>
           <li>MATERIALIZE CSS</li>
         </ul>
@@ -68,7 +71,9 @@ const Home = () => {
         </ul>
       </Card>
     </Layout>
-    <Footer className='footer'>Copyright ©{new Date().getFullYear()} Created by Ahmad Bilal Amjad</Footer>
+    <Title className='skills'>Social</Title>
+    
+    <Footer className='footer'>Made with <HeartFilled style={{ color: 'red', fontSize: 18 }}/> by <span className='bold-purple'> Ahmad Bilal Amjad </span></Footer>
   </Layout>
   );
 }

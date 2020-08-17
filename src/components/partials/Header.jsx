@@ -7,10 +7,12 @@ const Header = () => {
     const { Item } = Menu;
     const { Header } = Layout;
     const history = useHistory();
+    const { location: { pathname } } = history;
+    const activeLink = pathname === '/' ? 'home' : 'projects' 
     
     return (
         <Header className='header'>
-            <Menu mode="horizontal" defaultSelectedKeys={['home']} style={{ display: 'flex', justifyContent: 'center' }}>
+            <Menu mode="horizontal" defaultSelectedKeys={[activeLink]} style={{ display: 'flex', justifyContent: 'center' }}>
                 <Item key="home" onClick={() => history.push('/')}>
                     Home
                 </Item>
