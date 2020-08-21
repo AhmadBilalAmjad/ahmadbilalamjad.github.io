@@ -1,0 +1,125 @@
+{
+    "skills": [
+        { 
+            "name": "LANGUAGES",
+            "items": [
+                {
+                    "name": "JAVASCRIPT",
+                    "isBold": true
+                },
+                {
+                    "name": "TYPESCRIPT",
+                    "isBold": true
+                },
+                {
+                    "name": "PYTHON"
+                },
+                {
+                    "name": "PHP"
+                }
+            ]
+        },
+        {
+            "name": "FRONT END",
+            "items": [
+                {
+                    "name": "HTML 5"
+                },
+                {
+                    "name": "REACT JS",
+                    "isBold": true
+                },
+                {
+                    "name": "REDUX",
+                    "isBold": true
+                },
+                {
+                    "name": "REDUX-THUNK & REDUX-SAGA",
+                    "isBold": true
+                }
+            ]
+        },
+        { 
+            "name": "STYLING",
+            "items": [
+                {
+                    "name": "CSS 3"
+                },
+                {
+                    "name": "SASS"
+                },
+                {
+                    "name": "MATERIAL UI",
+                    "isBold": true
+                },
+                {
+                    "name": "ANT DESIGN",
+                    "isBold": true
+                },
+                {
+                    "name": "BOOTSTRAP 4*",
+                    "isBold": true
+                },
+                {
+                    "name": "MATERIALIZE CSS",
+                    "isBold": true
+                }
+            ]
+        },
+        { 
+            "name": "BACK END",
+            "items": [
+                {
+                    "name": "NODE JS",
+                    "isBold": true
+                },
+                {
+                    "name": "EXPRESS JS",
+                    "isBold": true
+                },
+                {
+                    "name": "DJANGO"
+                },
+                {
+                    "name": "LARAVEL"
+                },
+                {
+                    "name": "ORM"
+                }
+            ]
+        },
+        { 
+            "name": "DATABASES",
+            "items": [
+                {
+                    "name": "MONGODB",
+                    "isBold": true
+                },
+                {
+                    "name": "MYSQL",
+                    "isBold": true
+                },
+                {
+                    "name": "POSTGRESQL"
+                }
+            ]
+        },
+        { 
+            "name": "TESTING",
+            "items": [
+                {
+                    "name": "JEST",
+                    "isBold": true
+                },
+                {
+                    "name": "MOCHA",
+                    "isBold": true
+                },
+                {
+                    "name": "CHAI",
+                    "isBold": true
+                }
+            ]
+        }
+    ]
+}

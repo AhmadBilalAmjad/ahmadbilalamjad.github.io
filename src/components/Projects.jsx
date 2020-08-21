@@ -40,6 +40,7 @@ const Projects = () => {
             <Layout className='projects-wrapper'>
             {projects.map(project => (
                 <Card
+                    key={project.name}
                     hoverable
                     style={{ width: 300 }}
                     cover={<img alt={project.name} src={project.image} />}
@@ -48,7 +49,7 @@ const Projects = () => {
                     <div style={{ marginTop: 5 }}>
                     <p>Technologies Used</p>    
                         {project.technologies.map(tech => (
-                            <Tag color="purple" style={{ margin: 5 }}>{tech}</Tag>
+                            <Tag key={tech} color="purple" style={{ margin: 5 }}>{tech}</Tag>
                         ))}
                     </div>
                 </Card>
