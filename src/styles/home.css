@@ -107,3 +107,9 @@ h2.ant-typography {
     color: white;
     font-size: 25 !important;
 }
+
+.ant-card-meta-title {
+    font-weight: bolder !important;
+    font-size: 1.5rem !important;
+    color: #8c43ff !important;
+}
