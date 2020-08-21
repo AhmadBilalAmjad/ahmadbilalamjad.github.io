@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Layout, Tag, Typography } from 'antd';
+import { Card, Layout, Tag, Typography, Button } from 'antd';
 
 import Header from './partials/Header';
 import '../styles/home.css';
@@ -31,7 +31,7 @@ const Projects = () => {
             types: ['javscript', 'php'],
             technologies: ['PHP', 'Laravel', 'MySql', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap 4*', 'JQuery'],
             link: 'https://www.onlineconverter4u.com/',
-            isDown: true
+            isUp: true
         },
         {
             image: 'https://i.ibb.co/qrfYHpy/Find-Github-Users.png',
@@ -42,17 +42,6 @@ const Projects = () => {
             isUp: true
         }
     ]
-
-    const setLiveLink = (name, link) => {
-        const linkName = 'View Live'
-
-        switch (name) {
-            case 'Eventray':
-                return <a href={link} alt='Eventray' target="_blank" rel="noopener noreferrer">{linkName}</a>        
-            default:
-                return <a href={link} alt='Eventray' target="_blank" rel="noopener noreferrer">{linkName}</a>
-        }
-    } 
 
     return (
         <Layout>
@@ -72,10 +61,12 @@ const Projects = () => {
                             <Tag key={tech} color="purple" style={{ margin: 5 }}>{tech}</Tag>
                         ))}
                     </div>
-                    <div style={{ marginTop: 10 }}>
-                        {project.isDown && 'OOPS'}
-                        {project.isGithubRepo && 'View On Github'}
-                        {project.isUp && setLiveLink(project.name, project.link)}
+                    <div className='project-link-wrapper'> 
+                        <Button block>
+                            <a href={project.link} alt={project.name} target="_blank" rel="noopener noreferrer">
+                                View {project.isUp ? 'Live' : 'On Github'}
+                            </a>
+                        </Button>
                     </div>
                 </Card>
             ))}

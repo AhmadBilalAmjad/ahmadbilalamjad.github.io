@@ -80,11 +80,9 @@ h2.ant-typography {
     font-weight: bolder;
 }
 
-/* @media screen and (max-width: 600px) { */
-    .ant-card, .ant-card-bordered, .ant-card-small {
-        margin: 0.5rem 0 !important;
-    }
-/* } */
+.ant-card, .ant-card-bordered, .ant-card-small {
+    margin: 0.5rem 0 !important;
+}
 
 .skills {
     color: #8c43ff !important;
@@ -112,4 +110,16 @@ h2.ant-typography {
     font-weight: bolder !important;
     font-size: 1.5rem !important;
     color: #8c43ff !important;
+}
+
+.project-link-wrapper {
+    margin-top: 10px;
+}
+
+.project-link-wrapper > button {
+    color: #8c43ff !important;
+}
+
+.project-link-wrapper > button:hover {
+    border: 1px solid #8c43ff !important;
 }
