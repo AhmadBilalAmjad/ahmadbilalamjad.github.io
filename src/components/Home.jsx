@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Typography, Card } from 'antd';
-import { HeartFilled } from '@ant-design/icons'
+import { HeartFilled, GithubOutlined, LinkedinOutlined } from '@ant-design/icons'
 
 import Header from './partials/Header';
 
@@ -17,11 +17,19 @@ const Home = () => {
       <div className="site-layout-background">
         <Title>I'm Ahmad Bilal Amjad</Title>
         <Title level={2}>I'm a Software Engineer / Full Stack Developer</Title>
+        <div>
+          <a href="https://github.com/AhmadBilalAmjad" target='_blank' rel="noopener noreferrer">
+            <GithubOutlined  style={{ color: 'white', fontSize: 30, marginRight: 10 }}/>
+          </a>
+          <a href="https://pk.linkedin.com/in/ahmadbilalamjad" target='_blank' rel="noopener noreferrer">
+            <LinkedinOutlined style={{ color: 'white', fontSize: 30 }} />
+          </a>
+        </div>
       </div>
     </Content>
     <Title className='skills'>SKILLS</Title>
     <Layout className='skills-card-wrapper'>
-      <Card size="small" title="FRONT END" style={{ width: 200 }}>
+      <Card size="small" hoverable title="FRONT END" style={{ width: 200 }}>
         <ul className='card-body'>
           <li>HTML 5</li>
           <li>CSS 3</li>
@@ -30,7 +38,7 @@ const Home = () => {
           <li className='bold-purple'>REDUX-THUNK & REDUX-SAGA</li>
         </ul>
       </Card>
-      <Card size="small" title="STYLING" style={{ width: 200 }}>
+      <Card size="small" hoverable title="STYLING" style={{ width: 200 }}>
         <ul className='card-body'>
           <li>SASS</li>
           <li className='bold-purple'>MATERIAL UI</li>
@@ -39,7 +47,7 @@ const Home = () => {
           <li>MATERIALIZE CSS</li>
         </ul>
       </Card>
-      <Card size="small" title="BACK END" style={{ width: 200 }}>
+      <Card size="small" hoverable title="BACK END" style={{ width: 200 }}>
         <ul className='card-body'>
           <li className='bold-purple'>NODE JS</li>
           <li className='bold-purple'>EXPRESS JS</li>
@@ -48,7 +56,7 @@ const Home = () => {
           <li>ORM</li>
         </ul>
       </Card>
-      <Card size="small" title="LANGUAGES" style={{ width: 200 }}>
+      <Card size="small" hoverable title="LANGUAGES" style={{ width: 200 }}>
         <ul className='card-body'>
           <li className='bold-purple'>JAVASCRIPT</li>
           <li className='bold-purple'>TYPESCRIPT</li>
@@ -56,14 +64,14 @@ const Home = () => {
           <li>PHP</li>
         </ul>
       </Card>
-      <Card size="small" title="DATABASES" style={{ width: 200 }}>
+      <Card size="small" hoverable title="DATABASES" style={{ width: 200 }}>
         <ul className='card-body'>
           <li className='bold-purple'>MONGODB</li>
           <li className='bold-purple'>MYSQL</li>
           <li>POSTGRESQL</li>
         </ul>
       </Card>
-      <Card size="small" title="TESTING" style={{ width: 200 }}>
+      <Card size="small" hoverable title="TESTING" style={{ width: 200 }}>
         <ul className='card-body'>
           <li className='bold-purple'>JEST</li>
           <li className='bold-purple'>MOCHA</li>
@@ -71,9 +79,7 @@ const Home = () => {
         </ul>
       </Card>
     </Layout>
-    <Title className='skills'>Social</Title>
-    
-    <Footer className='footer'>Made with <HeartFilled style={{ color: 'red', fontSize: 18 }}/> by <span className='bold-purple'> Ahmad Bilal Amjad </span></Footer>
+    <Footer className='footer'>Made with <HeartFilled style={{ color: 'red', fontSize: 18 }} /> by <span className='bold-purple'> Ahmad Bilal Amjad </span></Footer>
   </Layout>
   );
 }

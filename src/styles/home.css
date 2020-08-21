@@ -102,3 +102,8 @@ h2.ant-typography {
     justify-content: space-evenly;
     padding: 2rem;
 }
+
+.social-icon {
+    color: white;
+    font-size: 25 !important;
+}
