@@ -9,7 +9,6 @@
     position: absolute;
     left: 0;
     width: 100vw;
-    /* background: transparent !important; */
 }
 
 .site-layout {
@@ -107,8 +106,4 @@ h2.ant-typography {
 .social-icon {
     color: white;
     font-size: 25 !important;
-}
-
-.icons-wrapper > a:hover {
-    color: #8c43ff !important;
 }

@@ -18,7 +18,7 @@ const Home = () => {
       <div className="site-layout-background">
         <Title>I'm Ahmad Bilal Amjad</Title>
         <Title level={2}>I'm a Software Engineer / Full Stack Developer</Title>
-        <div className='icons-wrapper'>
+        <div>
           <a href="https://github.com/AhmadBilalAmjad" target='_blank' rel="noopener noreferrer">
             <GithubOutlined  style={{ color: 'white', fontSize: 30, marginRight: 10 }}/>
           </a>
