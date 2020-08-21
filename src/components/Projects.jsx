@@ -21,9 +21,9 @@ const Projects = () => {
                     style={{ width: 300 }}
                     cover={<img alt={project.name} src={project.image} />}
                 >
-                    <Meta title={project.name} description="www.instagram.com" />
+                    <Meta title={project.name} description={project.description} />
                     <div style={{ marginTop: 10 }}>
-                        <Title level={4}>Technologies Used</Title>    
+                        <Title level={4} className='technologies-used'>Technologies Used</Title>    
                         {project.technologies.map(tech => (
                             <Tag key={tech} color="purple" style={{ margin: 5 }}>{tech}</Tag>
                         ))}

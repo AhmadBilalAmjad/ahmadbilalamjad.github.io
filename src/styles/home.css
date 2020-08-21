@@ -123,3 +123,7 @@ h2.ant-typography {
 .project-link-wrapper > button:hover {
     border: 1px solid #8c43ff !important;
 }
+
+.technologies-used {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
