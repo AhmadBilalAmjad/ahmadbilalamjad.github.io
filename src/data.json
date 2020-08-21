@@ -1,163 +1,172 @@
 {
-    "skills": [
-        { 
-            "name": "LANGUAGES",
-            "items": [
-                {
-                    "name": "JAVASCRIPT",
-                    "isBold": true
-                },
-                {
-                    "name": "TYPESCRIPT",
-                    "isBold": true
-                },
-                {
-                    "name": "PYTHON"
-                },
-                {
-                    "name": "PHP"
-                }
-            ]
+  "skills": [
+    {
+      "name": "LANGUAGES",
+      "items": [
+        {
+          "name": "JAVASCRIPT",
+          "isBold": true
         },
         {
-            "name": "FRONT END",
-            "items": [
-                {
-                    "name": "HTML 5"
-                },
-                {
-                    "name": "REACT JS",
-                    "isBold": true
-                },
-                {
-                    "name": "REDUX",
-                    "isBold": true
-                },
-                {
-                    "name": "REDUX-THUNK & REDUX-SAGA",
-                    "isBold": true
-                }
-            ]
+          "name": "TYPESCRIPT",
+          "isBold": true
         },
-        { 
-            "name": "STYLING",
-            "items": [
-                {
-                    "name": "CSS 3"
-                },
-                {
-                    "name": "SASS"
-                },
-                {
-                    "name": "MATERIAL UI",
-                    "isBold": true
-                },
-                {
-                    "name": "ANT DESIGN",
-                    "isBold": true
-                },
-                {
-                    "name": "BOOTSTRAP 4*",
-                    "isBold": true
-                },
-                {
-                    "name": "MATERIALIZE CSS",
-                    "isBold": true
-                }
-            ]
+        {
+          "name": "PYTHON"
         },
-        { 
-            "name": "BACK END",
-            "items": [
-                {
-                    "name": "NODE JS",
-                    "isBold": true
-                },
-                {
-                    "name": "EXPRESS JS",
-                    "isBold": true
-                },
-                {
-                    "name": "DJANGO"
-                },
-                {
-                    "name": "LARAVEL"
-                },
-                {
-                    "name": "ORM"
-                }
-            ]
-        },
-        { 
-            "name": "DATABASES",
-            "items": [
-                {
-                    "name": "MONGODB",
-                    "isBold": true
-                },
-                {
-                    "name": "MYSQL",
-                    "isBold": true
-                },
-                {
-                    "name": "POSTGRESQL"
-                }
-            ]
-        },
-        { 
-            "name": "TESTING",
-            "items": [
-                {
-                    "name": "JEST",
-                    "isBold": true
-                },
-                {
-                    "name": "MOCHA",
-                    "isBold": true
-                },
-                {
-                    "name": "CHAI",
-                    "isBold": true
-                }
-            ]
+        {
+          "name": "PHP"
         }
-    ],
-    "projects": [
+      ]
+    },
+    {
+      "name": "FRONT END",
+      "items": [
         {
-            "image": "https://i.ibb.co/kBs9cWj/React-App.png",
-            "name": "Images Converters",
-            "types": ["javscript", "react", "python"],
-            "technologies": ["HTML 5", "CSS 3", "React JS", "Python"],
-            "link": "http://imagesconverters.com/",
-            "description": "This websites provide images conversion with real time customization support.",
-            "isUp": true
+          "name": "HTML 5"
         },
         {
-            "image": "https://i.ibb.co/f8F2X0b/Whats-App-Image-2020-08-10-at-8-37-59-PM.jpg",
-            "name": "Online Calculators",
-            "types": ["Javscript", "React", "Node JS"],
-            "technologies": ["HTML 5", "CSS 3", "React JS", "Redux", "Redux-Saga", "Node JS", "Express JS", "Mongo DB"],
-            "link": "",
-            "description": "This websites provide online calculators for health,fitness,maths,financial... and many more",
-            "isUp": true
+          "name": "REACT JS",
+          "isBold": true
         },
         {
-            "image": "https://i.ibb.co/qrfYHpy/Find-Github-Users.png",
-            "name": "Github User Finder",
-            "types": ["javscript"],
-            "technologies": ["javscript", "HTML5", "CSS3" ,"Bootstrap 4*"],
-            "link": "https://githubfinder-app.netlify.app/",
-            "description": "This websites provide functionality to fetch Github Users",
-            "isUp": true
+          "name": "REDUX",
+          "isBold": true
         },
         {
-            "image": "https://i.ibb.co/jyXffrD/fish-store.png",
-            "name": "Fish Selling Store",
-            "types": ["javscript", "react"],
-            "technologies": ["HTML 5", "CSS 3", "Firebase", "React JS"],
-            "link": "https://github.com/AhmadBilalAmjad/Fishes-Store/",
-            "description": "This websites provides functionaltiy for selling fish and stock management for different species of fishes",
-            "isGithubRepo": true
+          "name": "REDUX-THUNK & REDUX-SAGA",
+          "isBold": true
         }
-    ]
+      ]
+    },
+    {
+      "name": "STYLING",
+      "items": [
+        {
+          "name": "CSS 3"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "MATERIAL UI",
+          "isBold": true
+        },
+        {
+          "name": "ANT DESIGN",
+          "isBold": true
+        },
+        {
+          "name": "BOOTSTRAP 4*",
+          "isBold": true
+        },
+        {
+          "name": "MATERIALIZE CSS",
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "name": "BACK END",
+      "items": [
+        {
+          "name": "NODE JS",
+          "isBold": true
+        },
+        {
+          "name": "EXPRESS JS",
+          "isBold": true
+        },
+        {
+          "name": "DJANGO"
+        },
+        {
+          "name": "LARAVEL"
+        },
+        {
+          "name": "ORM"
+        }
+      ]
+    },
+    {
+      "name": "DATABASES",
+      "items": [
+        {
+          "name": "MONGODB",
+          "isBold": true
+        },
+        {
+          "name": "MYSQL",
+          "isBold": true
+        },
+        {
+          "name": "POSTGRESQL"
+        }
+      ]
+    },
+    {
+      "name": "TESTING",
+      "items": [
+        {
+          "name": "JEST",
+          "isBold": true
+        },
+        {
+          "name": "MOCHA",
+          "isBold": true
+        },
+        {
+          "name": "CHAI",
+          "isBold": true
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "image": "https://i.ibb.co/kBs9cWj/React-App.png",
+      "name": "Images Converters",
+      "types": ["javscript", "react", "python"],
+      "technologies": ["HTML 5", "CSS 3", "React JS", "Python"],
+      "link": "http://imagesconverters.com/",
+      "description": "This websites provide images conversion with real time customization support.",
+      "isUp": true
+    },
+    {
+      "image": "https://i.ibb.co/f8F2X0b/Whats-App-Image-2020-08-10-at-8-37-59-PM.jpg",
+      "name": "Online Calculators",
+      "types": ["Javscript", "React", "Node JS"],
+      "technologies": [
+        "HTML 5",
+        "CSS 3",
+        "React JS",
+        "Redux",
+        "Redux-Saga",
+        "Node JS",
+        "Express JS",
+        "Mongo DB"
+      ],
+      "link": "",
+      "description": "This websites provide online calculators for health,fitness,maths,financial... and many more",
+      "isUp": true
+    },
+    {
+      "image": "https://i.ibb.co/qrfYHpy/Find-Github-Users.png",
+      "name": "Github User Finder",
+      "types": ["javscript"],
+      "technologies": ["javscript", "HTML5", "CSS3", "Bootstrap 4*"],
+      "link": "https://githubfinder-app.netlify.app/",
+      "description": "This websites provide functionality to fetch Github Users",
+      "isUp": true
+    },
+    {
+      "image": "https://i.ibb.co/jyXffrD/fish-store.png",
+      "name": "Fish Selling Store",
+      "types": ["javscript", "react"],
+      "technologies": ["HTML 5", "CSS 3", "Firebase", "React JS"],
+      "link": "https://github.com/AhmadBilalAmjad/Fishes-Store/",
+      "description": "This websites provides functionaltiy for selling fish and stock management for different species of fishes",
+      "isGithubRepo": true
+    }
+  ]
 }
