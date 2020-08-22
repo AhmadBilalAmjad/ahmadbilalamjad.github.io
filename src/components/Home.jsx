@@ -1,18 +1,15 @@
 import React from "react";
 import { Layout, Typography, Card } from "antd";
-import {
-  HeartFilled,
-  GithubOutlined,
-  LinkedinOutlined,
-} from "@ant-design/icons";
+import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 
 import Header from "./partials/Header";
+import Footer from "./partials/Footer";
 import * as data from ".././data.json";
 
 import "../styles/home.css";
 
 const Home = () => {
-  const { Content, Footer } = Layout;
+  const { Content } = Layout;
   const { Title } = Typography;
 
   return (
@@ -64,10 +61,7 @@ const Home = () => {
           </Card>
         ))}
       </Layout>
-      <Footer className="footer">
-        Made with <HeartFilled style={{ color: "red", fontSize: 18 }} /> by{" "}
-        <span className="bold-purple"> Ahmad Bilal Amjad </span>
-      </Footer>
+      <Footer />
     </Layout>
   );
 };

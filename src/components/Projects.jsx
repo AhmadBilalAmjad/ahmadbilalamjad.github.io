@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Layout, Tag, Typography, Button } from "antd";
 
 import Header from "./partials/Header";
+import Footer from "./partials/Footer";
 import * as data from ".././data.json";
 
 import "../styles/home.css";
@@ -11,9 +12,9 @@ const Projects = () => {
   const { Title } = Typography;
 
   return (
-    <Layout>
+    <Layout style={{ background: "white" }}>
       <Header />
-      <Layout className="projects-wrapper">
+      <Layout className="projects-wrapper" style={{ background: "white" }}>
         {data.projects.map((project) => (
           <Card
             key={project.name}
@@ -33,20 +34,25 @@ const Projects = () => {
               ))}
             </div>
             <div className="project-link-wrapper">
-              <Button block>
+              <Button block disabled={!project.link}>
                 <a
                   href={project.link}
                   alt={project.name}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View {project.isUp ? "Live" : "On Github"}
+                  {!project.link
+                    ? "Comming Soon..."
+                    : project.isUp
+                    ? "View Live"
+                    : "View On Github"}
                 </a>
               </Button>
             </div>
           </Card>
         ))}
       </Layout>
+      <Footer />
     </Layout>
   );
 };
