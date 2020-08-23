@@ -25,7 +25,7 @@ const Projects = () => {
             <Meta title={project.name} description={project.description} />
             <div style={{ marginTop: 10 }}>
               <Title level={4} className="technologies-used">
-                Technologies Used
+                Technologies Used Testing
               </Title>
               {project.technologies.map((tech) => (
                 <Tag key={tech} color="purple" style={{ margin: 5 }}>
