@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Layout, Tag, Typography, Button } from "antd";
+import { Card, Layout, Tag, Typography, Button, Result } from "antd";
 
 import Header from "./partials/Header";
 import Footer from "./partials/Footer";
@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <Layout style={{ background: "white" }}>
       <Header />
-      <Layout className="projects-wrapper" style={{ background: "white" }}>
+      {/* <Layout className="projects-wrapper" style={{ background: "white" }}>
         {data.projects.map((project) => (
           <Card
             key={project.name}
@@ -51,6 +51,13 @@ const Projects = () => {
             </div>
           </Card>
         ))}
+      </Layout> */}
+      <Layout style={{ background: "white", marginTop: 84 }}>
+        <Result
+          status="404"
+          title="202"
+          subTitle="In Progress &#128578;"
+        />
       </Layout>
       <Footer />
     </Layout>
