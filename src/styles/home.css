@@ -131,3 +131,7 @@ h2.ant-typography {
 .technologies-used {
   color: rgba(0, 0, 0, 0.65) !important;
 }
+
+.ant-result-icon > svg > g > path:nth-child(11), path:nth-child(22) {
+  fill: #8c43ff;
+}

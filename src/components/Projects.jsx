@@ -52,11 +52,10 @@ const Projects = () => {
           </Card>
         ))}
       </Layout> */}
-      <Layout style={{ background: "white", marginTop: 84 }}>
+      <Layout style={{ background: "white", marginTop: 105 }}>
         <Result
           status="404"
-          title="202"
-          subTitle="In Progress &#128578;"
+          title="In Progress &#128578;"
         />
       </Layout>
       <Footer />
