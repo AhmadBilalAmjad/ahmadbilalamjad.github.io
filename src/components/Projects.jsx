@@ -58,7 +58,9 @@ const Projects = () => {
           title="In Progress &#128578;"
         />
       </Layout>
-      <Footer />
+      <div style={{ position: 'absolute', bottom: 0, width: '100%' }}>
+        <Footer />
+      </div>
     </Layout>
   );
 };
