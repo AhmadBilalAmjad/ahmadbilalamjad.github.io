@@ -5,11 +5,11 @@
       "items": [
         {
           "name": "JAVASCRIPT",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "TYPESCRIPT",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "PYTHON"
@@ -24,18 +24,20 @@
       "items": [
         {
           "name": "HTML 5"
+        },{
+          "name": "RECOIL"
         },
         {
           "name": "REACT JS",
-          "isBold": true
+          "isPurple": true
         },
         {
-          "name": "REDUX",
-          "isBold": true
+          "name": "REDUX (THUNK + SAGA)",
+          "isPurple": true
         },
         {
-          "name": "REDUX-THUNK & REDUX-SAGA",
-          "isBold": true
+          "name": "REDUX TOOLKIT",
+          "isPurple": true
         }
       ]
     },
@@ -50,19 +52,19 @@
         },
         {
           "name": "MATERIAL UI",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "ANT DESIGN",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "BOOTSTRAP 4*",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "MATERIALIZE CSS",
-          "isBold": true
+          "isPurple": true
         }
       ]
     },
@@ -71,20 +73,17 @@
       "items": [
         {
           "name": "NODE JS",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "EXPRESS JS",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "DJANGO"
         },
         {
           "name": "LARAVEL"
-        },
-        {
-          "name": "ORM"
         }
       ]
     },
@@ -93,11 +92,11 @@
       "items": [
         {
           "name": "MONGODB",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "MYSQL",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "POSTGRESQL"
@@ -109,15 +108,15 @@
       "items": [
         {
           "name": "JEST",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "MOCHA",
-          "isBold": true
+          "isPurple": true
         },
         {
           "name": "CHAI",
-          "isBold": true
+          "isPurple": true
         }
       ]
     }

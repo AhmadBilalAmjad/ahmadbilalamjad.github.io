@@ -18,8 +18,8 @@ const Home = () => {
       <Content className="site-layout">
         <div className="site-layout-background">
           <Title>I'm Ahmad Bilal Amjad</Title>
-          <Title level={2}>
-            I'm a Software Engineer / Full Stack Developer
+          <Title level={3}>
+            I'm a Software Engineer / Senior React JS Developer
           </Title>
           <div>
             <a
@@ -53,7 +53,7 @@ const Home = () => {
           >
             <ul className="card-body">
               {skill.items.map((item) => (
-                <li key={item.name} className={item.isBold && "bold-purple"}>
+                <li key={item.name} className={item.isPurple && "bold-purple"}>
                   {item.name}
                 </li>
               ))}
