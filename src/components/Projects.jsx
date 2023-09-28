@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <Layout style={{ background: "white" }}>
       <Header />
-      {/* <Layout className="projects-wrapper" style={{ background: "white" }}>
+      <Layout className="projects-wrapper" style={{ background: "white" }}>
         {data.projects.map((project) => (
           <Card
             key={project.name}
@@ -51,13 +51,13 @@ const Projects = () => {
             </div>
           </Card>
         ))}
-      </Layout> */}
-      <Layout style={{ background: "white", marginTop: 105 }}>
+      </Layout>
+{/*       <Layout style={{ background: "white", marginTop: 105 }}>
         <Result
           status="404"
           title="In Progress &#128578;"
         />
-      </Layout>
+      </Layout> */}
       <div style={{ position: 'absolute', bottom: 0, width: '100%' }}>
         <Footer />
       </div>
