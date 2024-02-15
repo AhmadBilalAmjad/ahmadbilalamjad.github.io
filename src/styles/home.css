@@ -12,7 +12,7 @@
 }
 
 .site-layout {
-  background: url("../images/background.jpg");
+  /* background: url("../images/background.jpg"); */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .site-layout-background {
-  background: linear-gradient(rgba(29, 38, 113, 0.5), rgba(195, 55, 100, 0.5));
+  /* background: linear-gradient(rgba(29, 38, 113, 0.5), rgba(195, 55, 100, 0.5)); */
   min-height: 100vh !important;
   display: flex;
   justify-content: center;
@@ -30,10 +30,10 @@
 
 .site-layout-background > h1,
 h3 {
-  color: white !important;
+  /* color: white !important; */
   text-align: center;
 }
-
+/* 
 .ant-menu-item {
   font-weight: bolder;
 }
@@ -134,4 +134,4 @@ h3.ant-typography {
 
 .ant-result-icon > svg > g > path:nth-child(11), path:nth-child(22) {
   fill: #8c43ff;
-}
+} */
