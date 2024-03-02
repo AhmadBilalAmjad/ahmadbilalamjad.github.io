@@ -21,9 +21,9 @@ const Header = () => {
         <Item key="home" onClick={() => history.push("/")}>
           Home
         </Item>
-        <Item key="projects" onClick={() => history.push("/projects")}>
+        {/* <Item key="projects" onClick={() => history.push("/projects")}>
           Projects
-        </Item>
+        </Item> */}
       </Menu>
     </Header>
   );
